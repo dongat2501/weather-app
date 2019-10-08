@@ -25,6 +25,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-location:before {
+  content: "\e90e";
+}
+.icon-map:before {
+  content: "\e90e";
+}
+.icon-stop-watch:before {
+  content: "\e90f";
+}
 .icon-clouds:before {
   content: "\e900";
 }
@@ -66,4 +75,29 @@
 }
 .icon-cloud-snow:before {
   content: "\e90d";
+}
+
+
+//custom-icon
+.icon-add {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  display: inline-block;
+  &:after, &::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+  }
+  &:after {
+    width: 10px;
+    height: 1px;
+  }
+  &:before {
+    width: 1px;
+    height: 10px;
+  }
 }

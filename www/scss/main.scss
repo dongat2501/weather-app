@@ -47,7 +47,7 @@ figure, h1, h2, h3, h4, h5, p {
 
 .p-small {
     font-size: 12px;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 .icon-large {
@@ -75,6 +75,9 @@ figure, h1, h2, h3, h4, h5, p {
 .header {
     padding: 25px 0;
     &__heading {
+        margin-bottom: 10px;
+    }
+    &__p {
         margin-bottom: 10px;
     }
 }

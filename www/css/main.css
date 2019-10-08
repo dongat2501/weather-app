@@ -20,6 +20,15 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+.icon-location:before {
+  content: "\e90e"; }
+
+.icon-map:before {
+  content: "\e90e"; }
+
+.icon-stop-watch:before {
+  content: "\e90f"; }
+
 .icon-clouds:before {
   content: "\e900"; }
 
@@ -62,15 +71,32 @@
 .icon-cloud-snow:before {
   content: "\e90d"; }
 
+.icon-add {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  display: inline-block; }
+  .icon-add:after, .icon-add::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff; }
+  .icon-add:after {
+    width: 10px;
+    height: 1px; }
+  .icon-add:before {
+    width: 1px;
+    height: 10px; }
+
 body {
   margin: 0;
   color: #fff;
   font-size: 16px;
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
-  -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
-  background-image: -webkit-gradient(linear, left top, right top, from(#6c8aca), to(#495388));
   background-image: linear-gradient(to right, #6c8aca, #495388); }
 
 li,
@@ -102,34 +128,29 @@ figure, h1, h2, h3, h4, h5, p {
 
 .p-small {
   font-size: 12px;
-  font-weight: 100; }
+  font-weight: 200; }
 
 .icon-large {
   font-size: 40vw; }
 
 .flex-between {
-  display: -webkit-box;
   display: flex;
-  -webkit-box-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-          justify-content: space-between; }
+  align-items: center;
+  justify-content: space-between; }
 
 .page {
-  display: -webkit-box;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-          flex-direction: column;
+  flex-direction: column;
   min-height: 100vh; }
 
 .page-weather .header {
-  -webkit-box-flex: 1;
-          flex: 1; }
+  flex: 1; }
 
 .header {
   padding: 25px 0; }
   .header__heading {
+    margin-bottom: 10px; }
+  .header__p {
     margin-bottom: 10px; }
 
 .list__cta {
@@ -149,7 +170,6 @@ figure, h1, h2, h3, h4, h5, p {
     font-size: 30px;
     text-align: center; }
   .item__container > * {
-    -webkit-box-flex: 1;
-            flex: 1; }
+    flex: 1; }
   .item__container p:last-child {
     text-align: right; }
