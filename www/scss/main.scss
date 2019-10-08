@@ -80,6 +80,10 @@ figure, h1, h2, h3, h4, h5, p {
     &__p {
         margin-bottom: 10px;
     }
+    &__icon {
+        font-size: 20px;
+        margin-right: 5px;
+    }
 }
 
 .list {
@@ -96,7 +100,7 @@ figure, h1, h2, h3, h4, h5, p {
 }
 
 .item {
-    padding: 10px 0;
+    height: 50px;
     margin-bottom: 1px;
     background: rgba(#fff, 0.05);
     &__icon{
@@ -104,6 +108,7 @@ figure, h1, h2, h3, h4, h5, p {
         text-align: center;
     }
     &__container {
+        height: 100%;
         > * {
             flex: 1;
         }

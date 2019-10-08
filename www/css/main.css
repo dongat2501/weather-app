@@ -152,6 +152,9 @@ figure, h1, h2, h3, h4, h5, p {
     margin-bottom: 10px; }
   .header__p {
     margin-bottom: 10px; }
+  .header__icon {
+    font-size: 20px;
+    margin-right: 5px; }
 
 .list__cta {
   color: #fff; }
@@ -163,13 +166,15 @@ figure, h1, h2, h3, h4, h5, p {
   margin-bottom: 5vh; }
 
 .item {
-  padding: 10px 0;
+  height: 50px;
   margin-bottom: 1px;
   background: rgba(255, 255, 255, 0.05); }
   .item__icon {
     font-size: 30px;
     text-align: center; }
-  .item__container > * {
-    flex: 1; }
-  .item__container p:last-child {
-    text-align: right; }
+  .item__container {
+    height: 100%; }
+    .item__container > * {
+      flex: 1; }
+    .item__container p:last-child {
+      text-align: right; }
