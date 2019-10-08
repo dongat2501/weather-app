@@ -1,0 +1,114 @@
+@import "icon.scss";
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+
+
+body {
+    margin: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    transition: all 1s ease-in-out;
+    background-image: linear-gradient(to right, #6c8aca, #495388 );
+}
+
+li,
+a,
+ul,
+figure, h1, h2, h3, h4, h5, p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    padding: 0 25px;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sub-heading {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.title {
+    font-size: 18vw;
+    font-weight: 100;
+    letter-spacing: 5.5px;
+    sup {
+        font-size: 8vw;
+    }
+}
+
+.p-small {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.icon-large {
+    font-size: 40vw;
+}
+
+.flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.page-weather {
+    .header {
+        flex: 1;
+    }
+}
+
+.header {
+    padding: 25px 0;
+    &__heading {
+        margin-bottom: 10px;
+    }
+}
+
+.list {
+    &__cta {
+        color: #fff;
+        a {
+            text-decoration: underline;
+            color: #fff;
+        }
+    }
+    &__container {
+        margin-bottom: 5vh;
+    }
+}
+
+.item {
+    padding: 10px 0;
+    margin-bottom: 1px;
+    background: rgba(#fff, 0.05);
+    &__icon{
+        font-size: 30px;
+        text-align: center;
+    }
+    &__container {
+        > * {
+            flex: 1;
+        }
+        p {
+            &:last-child {
+                text-align: right;
+            }
+        }
+    }
+}
+

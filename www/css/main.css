@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?v1czqe");
+  src: url("../fonts/icomoon.eot?v1czqe#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?v1czqe") format("truetype"), url("../fonts/icomoon.woff?v1czqe") format("woff"), url("../fonts/icomoon.svg?v1czqe#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; }
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-clouds:before {
+  content: "\e900"; }
+
+.icon-clouds1:before {
+  content: "\e901"; }
+
+.icon-cloud-moon-raindrops:before {
+  content: "\e902"; }
+
+.icon-cloud-sun-raindrops:before {
+  content: "\e903"; }
+
+.icon-cloud-moon-lightning:before {
+  content: "\e904"; }
+
+.icon-cloud-sun-lightning:before {
+  content: "\e905"; }
+
+.icon-cloud-moon-snow:before {
+  content: "\e906"; }
+
+.icon-cloud-sun-snow:before {
+  content: "\e907"; }
+
+.icon-cloud-moon-rain:before {
+  content: "\e908"; }
+
+.icon-cloud-sun-rain:before {
+  content: "\e909"; }
+
+.icon-cloud-wind:before {
+  content: "\e90a"; }
+
+.icon-cloud-lightning:before {
+  content: "\e90b"; }
+
+.icon-cloud-sun:before {
+  content: "\e90c"; }
+
+.icon-cloud-snow:before {
+  content: "\e90d"; }
+
+body {
+  margin: 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  background-image: -webkit-gradient(linear, left top, right top, from(#6c8aca), to(#495388));
+  background-image: linear-gradient(to right, #6c8aca, #495388); }
+
+li,
+a,
+ul,
+figure, h1, h2, h3, h4, h5, p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+
+.container {
+  padding: 0 25px; }
+
+.heading {
+  font-size: 24px;
+  font-weight: 500; }
+
+.sub-heading {
+  font-size: 22px;
+  font-weight: 400; }
+
+.title {
+  font-size: 18vw;
+  font-weight: 100;
+  letter-spacing: 5.5px; }
+  .title sup {
+    font-size: 8vw; }
+
+.p-small {
+  font-size: 12px;
+  font-weight: 100; }
+
+.icon-large {
+  font-size: 40vw; }
+
+.flex-between {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+          justify-content: space-between; }
+
+.page {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  min-height: 100vh; }
+
+.page-weather .header {
+  -webkit-box-flex: 1;
+          flex: 1; }
+
+.header {
+  padding: 25px 0; }
+  .header__heading {
+    margin-bottom: 10px; }
+
+.list__cta {
+  color: #fff; }
+  .list__cta a {
+    text-decoration: underline;
+    color: #fff; }
+
+.list__container {
+  margin-bottom: 5vh; }
+
+.item {
+  padding: 10px 0;
+  margin-bottom: 1px;
+  background: rgba(255, 255, 255, 0.05); }
+  .item__icon {
+    font-size: 30px;
+    text-align: center; }
+  .item__container > * {
+    -webkit-box-flex: 1;
+            flex: 1; }
+  .item__container p:last-child {
+    text-align: right; }
