@@ -181,3 +181,26 @@ figure, h1, h2, h3, h4, h5, p {
   text-align: center;
   color: lighten(#6767fa, 75%);
 }
+
+//float add Homescreen
+.card-wrap {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border: 1px solid #fff;
+    
+    p {
+        font-size: 10px;
+        font-weight: 200;
+        text-align: center;
+    }
+    .card-icon {
+        font-size: 30px;
+    }
+}

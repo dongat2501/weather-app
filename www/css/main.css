@@ -26,6 +26,9 @@
 .icon-map:before {
   content: "\e90e"; }
 
+.icon-mail-envelope-closed:before {
+  content: "\e910"; }
+
 .icon-stop-watch:before {
   content: "\e90f"; }
 
@@ -70,6 +73,9 @@
 
 .icon-cloud-snow:before {
   content: "\e90d"; }
+
+.icon-home3:before {
+  content: "\e911"; }
 
 .icon-add {
   width: 10px;
@@ -373,3 +379,21 @@ figure, h1, h2, h3, h4, h5, p {
   padding-top: 15px;
   text-align: center;
   color: white; }
+
+.card-wrap {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border: 1px solid #fff; }
+  .card-wrap p {
+    font-size: 10px;
+    font-weight: 200;
+    text-align: center; }
+  .card-wrap .card-icon {
+    font-size: 30px; }
