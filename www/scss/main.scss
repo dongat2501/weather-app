@@ -1,6 +1,7 @@
-@import "icon.scss";
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
 
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+@import "icon.scss";
+@import "form.scss";
 
 body {
     margin: 0;
@@ -43,6 +44,11 @@ figure, h1, h2, h3, h4, h5, p {
     sup {
         font-size: 8vw;
     }
+}
+
+.sub-title {
+    font-size: 30px;
+    font-weight: 400;
 }
 
 .p-small {
@@ -120,3 +126,12 @@ figure, h1, h2, h3, h4, h5, p {
     }
 }
 
+.form {
+    &__des {
+        margin-bottom: 15px;
+    }
+    &__footer {
+        margin-top: 40px;
+        text-align: center;
+    }
+}
