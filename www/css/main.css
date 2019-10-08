@@ -284,7 +284,8 @@ figure, h1, h2, h3, h4, h5, p {
 .header {
   padding: 25px 0; }
   .header__heading {
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    text-align: center; }
   .header__p {
     margin-bottom: 10px; }
   .header__icon {
